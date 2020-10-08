@@ -13,7 +13,7 @@ body {
     background: #fff;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 0 7% 0;
+    padding: 0 7% 10px;
 }
 
 hr {
@@ -43,4 +43,31 @@ header .info {
 }
 .info a {
     text-decoration: none;
+}
+
+.container h2 {
+    color: #cc0099;
+    font-size: 1rem;
+    text-decoration: underline;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.container hr {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+.period {
+    height: 4rem;
+}
+.period > p{
+   display: inline;
+    vertical-align: top;
+}
+.period > ul {
+    display: inline-block;
+    vertical-align: text-bottom;
 }
