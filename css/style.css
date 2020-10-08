@@ -4,10 +4,43 @@
 
 body {
     background: #000;
+    font-family: "Arial", sans-serif;
 }
 
 .container {
     width: 1200px;
+    display: block;
     background: #fff;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 7% 0;
+}
+
+hr {
+    color: #cc0099;
+    border: 0 none;
+    border-top: 2px dashed;
+}
+#header {
+    padding-top: 20px;
+}
+header figure{
+    display: inline-block;
+    height: 180px;
+    width: auto;
+    margin: 0 auto 0 20px;
+    padding: 0;
+}
+figure img {
+    height: 100%;
+}
+header .info {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.info a {
+    text-decoration: none;
 }
